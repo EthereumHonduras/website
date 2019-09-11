@@ -16,8 +16,6 @@
 
 */
 import React from "react";
-// nodejs library that concatenates classes
-import classnames from "classnames";
 
 // reactstrap components
 import {
@@ -26,11 +24,6 @@ import {
   Card,
   CardBody,
   CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col
@@ -39,9 +32,6 @@ import {
 // core components
 import DemoNavbar from "../../components/Navbars/DemoNavbar.jsx";
 import CardsFooter from "../../components/Footers/CardsFooter.jsx";
-
-// index page sections
-import Download from "../IndexSections/Download.jsx";
 
 import ahmed from "../../assets/img/contributors/ahmed.jpeg";
 import antonio from "../../assets/img/contributors/antonio.jpg";
@@ -272,16 +262,18 @@ class Landing extends React.Component {
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
-                      href="#"
-                      onClick={e => e.preventDefault()}
+                      href="https://www.meetup.com/buidl-tegucigalpa/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Attend in Tegucigalpa
                     </a>
                     <br></br> <br></br>
                     <a
                       className="font-weight-bold text-warning mt-5"
-                      href="#"
-                      onClick={e => e.preventDefault()}
+                      href="https://www.meetup.com/buidl-sps/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Attend in San Pedro Sula
                     </a>
