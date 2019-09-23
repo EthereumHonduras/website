@@ -311,10 +311,12 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">BUIDL</h4>
+                      <h4 className="display-3 text-white">
+                        Community Metrics
+                      </h4>
                       <p className="text-white">
-                        #BUIDL refers to the act of building products instead of
-                        using cryptocurrencies to speculate.
+                        To create a healthy community, we track the growth of
+                        our local ecosystem
                       </p>
                     </div>
                   </div>
@@ -328,18 +330,18 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-success">
-                            Awesome Support
+                            Awesome Startups
                           </h5>
                           <p>
-                            #BUIDL refers to the act of building products
-                            instead of using cryptocurrencies to speculate.
+                            We have multiple projects in the ecosystem from
+                            DeFi, wallets, exchanges even Governance.
                           </p>
                           <a
                             className="text-success"
-                            href="#pablo"
+                            href="#projects"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            5 Oficial Startups
                           </a>
                         </div>
                       </div>
@@ -354,20 +356,17 @@ class Landing extends React.Component {
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
+                          <h5 className="title text-warning">Active Members</h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            There are around 600 members registered in our
+                            multiple meetups and social channels.
                           </p>
                           <a
                             className="text-warning"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
-                            Learn more
+                            600+ members
                           </a>
                         </div>
                       </div>
