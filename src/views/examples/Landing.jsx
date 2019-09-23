@@ -86,7 +86,8 @@ class Landing extends React.Component {
                       <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0 btn-accent"
-                          href="#"
+                          href="https://daohaus.club/dao/0x278ee41bf97e0e1aada301b459f12cea79503bd5"
+                          target="_blank"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-rebel" />
@@ -97,6 +98,7 @@ class Landing extends React.Component {
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://discord.gg/XkmPawB"
+                          target="_blank"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fab fa-discord"></i>
@@ -142,12 +144,11 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="fab fa-ethereum" />
                     </div>
-                    <h3>Descentralized Experimentation</h3>
+                    <h3>Community Projects</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      We enjoy experimentation and collaboration, as a community
+                      we have multiple projects where we collaborate and
+                      mantain.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -195,6 +196,21 @@ class Landing extends React.Component {
                           </div>
                         </div>
                       </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="fas fa-box-open" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">Truffle Boxes</h6>
+                          </div>
+                        </div>
+                      </li>
                     </ul>
                   </div>
                 </Col>
@@ -232,9 +248,10 @@ class Landing extends React.Component {
                         BUIDL Meetups
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        We believe that education is a key component to growing
+                        the community, we host a series of monthly meetups for
+                        people to learn and casual hackathons for people to
+                        apply their knowledge.
                       </p>
                     </blockquote>
                   </Card>
@@ -244,22 +261,14 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="fas fa-user-graduate" />
                     </div>
-                    <h3>Learn</h3>
+                    <h3>Part of The BUIDL Network</h3>
                     <p className="lead">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      The BUIDL network is a chain of global meetups supported
+                      by ConsenSys, hosted by BUIDL Ambassadors that focus on
+                      three core concepts:
                     </p>
-                    <p>
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p>
-                    <p>
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p>
+                    <p>Blockchain Education Blockchain dApp & Infrastructure</p>
+                    <p>Development Community Engagement & Support</p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="https://www.meetup.com/buidl-tegucigalpa/"
@@ -406,7 +415,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Ahmed</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -422,7 +431,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Antonio</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -438,7 +447,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Cristian</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -454,7 +463,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Franco</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -470,7 +479,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Isaac</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -486,7 +495,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">John</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -502,7 +511,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Juan</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -518,7 +527,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Nelson</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -534,7 +543,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Oscar</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -550,7 +559,7 @@ class Landing extends React.Component {
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Robert</span>
-                        <small className="h6 text-muted">Web Developer</small>
+                        {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
                   </div>
@@ -564,13 +573,12 @@ class Landing extends React.Component {
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
+                      <h3 className="text-white">Be part of the community!</h3>
                       <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
+                        We created a Discord channel to be in constant
+                        communication. We use it to share links, memes, casual
+                        chat or discuss projects. Members range from experienced
+                        developers to newbies!
                       </p>
                     </Col>
                     <Col className="ml-lg-auto" lg="3">

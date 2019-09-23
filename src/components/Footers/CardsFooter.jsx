@@ -49,22 +49,9 @@ class CardsFooter extends React.Component {
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
-                  className="btn-neutral btn-icon-only btn-round"
-                  color="twitter"
-                  href="#"
-                  id="tooltip475038074"
-                  size="lg"
-                  target="_blank"
-                >
-                  <i className="fa fa-twitter" />
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Follow us
-                </UncontrolledTooltip>
-                <Button
                   className="btn-neutral btn-icon-only btn-round ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/groups/575920789181295/"
                   id="tooltip837440414"
                   size="lg"
                   target="_blank"
@@ -72,25 +59,25 @@ class CardsFooter extends React.Component {
                   <i className="fa fa-facebook-square" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Join us
                 </UncontrolledTooltip>
                 <Button
                   className="btn-neutral btn-icon-only btn-round ml-1"
-                  color="dribbble"
-                  href="https://dribbble.com/creativetim"
+                  color="twitter"
+                  href="https://daohaus.club/dao/0x278ee41bf97e0e1aada301b459f12cea79503bd5"
                   id="tooltip829810202"
                   size="lg"
                   target="_blank"
                 >
-                  <i className="fa fa-dribbble" />
+                  <i className="fa fa-rebel" />
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                  Join Us
                 </UncontrolledTooltip>
                 <Button
                   className="btn-neutral btn-icon-only btn-round ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/BuidlHonduras"
                   id="tooltip495507257"
                   size="lg"
                   target="_blank"
@@ -107,11 +94,8 @@ class CardsFooter extends React.Component {
               <Col md="6">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
-                  <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
-                    target="_blank"
-                  >
-                    Creative Tim
+                  <a href="#" target="_blank">
+                    BUIDL Honduras
                   </a>
                   .
                 </div>
@@ -119,34 +103,22 @@ class CardsFooter extends React.Component {
               <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
+                    <NavLink href="#" target="_blank">
                       BUIDL Honduras
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
-                      target="_blank"
-                    >
+                    <NavLink href="#" target="_blank">
                       About Us
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
+                    <NavLink href="#" target="_blank">
                       Blog
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
-                      target="_blank"
-                    >
+                    <NavLink href="#" target="_blank">
                       MIT License
                     </NavLink>
                   </NavItem>

@@ -155,8 +155,8 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-white btn-icon"
                       color="default"
-                      href="#"
-                      target=""
+                      href="https://daohaus.club/dao/0x278ee41bf97e0e1aada301b459f12cea79503bd5"
+                      target="_blank"
                     >
                       <span className="btn-inner--icon">
                         <i className="fa fa-rebel mr-2" />
