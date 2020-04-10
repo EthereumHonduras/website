@@ -80,13 +80,13 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">About Us</span>
+                        <span className="nav-link-inner--text">About Us</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Projects</span>
+                        <span className="nav-link-inner--text">Projects</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
@@ -155,14 +155,14 @@ class DemoNavbar extends React.Component {
                     <Button
                       className="btn-white btn-icon"
                       color="default"
-                      href="https://daohaus.club/dao/0x278ee41bf97e0e1aada301b459f12cea79503bd5"
+                      href="https://discord.gg/XkmPawB"
                       target="_blank"
                     >
-                      <span className="btn-inner--icon">
-                        <i className="fa fa-rebel mr-2" />
+                      <span className="btn-inner--icon mr-1">
+                        <i className="fab fa-discord"></i>
                       </span>
                       <span className="nav-link-inner--text ml-1">
-                        Join the DAO
+                        Talk with us
                       </span>
                     </Button>
                   </NavItem>

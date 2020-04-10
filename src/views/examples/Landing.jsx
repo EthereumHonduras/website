@@ -41,8 +41,9 @@ import isaac from "../../assets/img/contributors/isaac.jpeg";
 import john from "../../assets/img/contributors/john.jpg";
 import juan from "../../assets/img/contributors/juan.jpeg";
 import nelson from "../../assets/img/contributors/nelson.jpg";
-import oscar from "../../assets/img/contributors/oscar.jpeg";
+import oscarp from "../../assets/img/contributors/oscarp.jpeg";
 import robert from "../../assets/img/contributors/robert.jpg";
+import oscarf from "../../assets/img/contributors/oscarf.jpeg";
 
 class Landing extends React.Component {
   state = {};
@@ -86,13 +87,13 @@ class Landing extends React.Component {
                       <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0 btn-accent"
-                          href="https://daohaus.club/dao/0x278ee41bf97e0e1aada301b459f12cea79503bd5"
+                          href="https://gitcoin.co/grants/231/buidl-honduras"
                           target="_blank"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-rebel" />
                           </span>
-                          <span className="btn-inner--text">Join the DAO</span>
+                          <span className="btn-inner--text">Support Us</span>
                         </Button>
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
@@ -158,11 +159,26 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
+                              <i className="fas fa-cubes" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0"><a href="https://gitcoin.co/grants/231/buidl-honduras">Gitcoin Grants</a></h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
                               <i className="fa fa-code" />
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">El Hackathon Muñón</h6>
+                            <h6 className="mb-0"><a href="https://munonhack.com/">El Hackathon Muñón</a></h6>
                           </div>
                         </div>
                       </li>
@@ -177,7 +193,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">BUIDL Honduras DAO</h6>
+                            <h6 className="mb-0"><a href="https://daohaus.club/dao/0x278ee41bf97e0e1aada301b459f12cea79503bd5">BUIDL Honduras DAO</a></h6>
                           </div>
                         </div>
                       </li>
@@ -192,7 +208,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Open Blog</h6>
+                            <h6 className="mb-0"><a href="https://medium.com/buidl-honduras">Community Blog</a></h6>
                           </div>
                         </div>
                       </li>
@@ -207,7 +223,22 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Truffle Boxes</h6>
+                            <h6 className="mb-0"><a href="https://anchor.fm/blockeados">Community Podcast</a></h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="success"
+                            >
+                              <i className="fab fa-youtube" />
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0"><a href="https://www.youtube.com/channel/UCEZctdEa1sdYTxhnoMYPiTQ">YouTube Channel</a></h6>
                           </div>
                         </div>
                       </li>
@@ -536,12 +567,12 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={oscar}
+                      src={oscarp}
                       style={{ width: "200px" }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Oscar</span>
+                        <span className="d-block mb-1">Oscar P</span>
                         {/* <small className="h6 text-muted">Web Developer</small> */}
                       </h5>
                     </div>
@@ -559,6 +590,22 @@ class Landing extends React.Component {
                       <h5 className="title">
                         <span className="d-block mb-1">Robert</span>
                         {/* <small className="h6 text-muted">Web Developer</small> */}
+                      </h5>
+                    </div>
+                  </div>
+                </Col>
+                <Col className="mb-5 mb-lg-4" lg="3" md="6">
+                  <div className="px-4">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                      src={oscarf}
+                      style={{ width: "200px" }}
+                    />
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Oscar F</span>
+                        {/* <small className="h6 text-muted">Blockchain Developer</small> */}
                       </h5>
                     </div>
                   </div>
